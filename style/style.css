@@ -1,0 +1,163 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.left {
+    background-color: rgb(45, 44, 44);
+    width: 500px;
+    height: 800px;
+    margin-left: 42vh;
+    position: absolute;
+    box-shadow: 8px 5px 5px rgb(0, 0, 0);
+}
+
+.right {
+    background-color: rgb(86, 86, 86);
+    width: 500px;
+    height: 800px;
+    margin-left: 90vh;
+    top: 10vh;
+    position: absolute;
+    box-shadow: 8px 5px 5px rgb(0, 0, 0);
+}
+
+h1 {
+    position: absolute;
+    left: 110vh;
+    top: -10px;
+    font-size: 44px;
+    color: rgb(2, 91, 208);
+}
+
+h2 {
+    color: rgb(12, 238, 4);
+    margin-left: 8vh;
+    margin-top: 2vh;
+    font-size: 34px;
+}
+
+.avatar {
+    width: 150px;
+    height: 170px;
+    float: right;
+    margin-right: 2vh;
+    margin-top: -7vh;
+}
+
+h3 {
+    color: white;
+    margin-left: 8vh;
+    padding-top: -2px;
+    line-height: 1px;
+}
+
+.perso {
+    margin-left: 8vh;
+    font-size: 18px;
+    color: white;
+}
+
+.stop {
+    width: auto;
+    height: 2px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.cont1 {
+    width: 350px;
+    height: 150px;
+    border: 2px dashed white;
+    margin-left: 8vh;
+    margin-top: 2vh;
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.cont2 {
+    width: 350px;
+    height: 150px;
+    border: 2px dashed white;
+    margin-left: 14vh;
+    margin-top: 2vh;
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.cont3 {
+    width: 350px;
+    height: 150px;
+    border: 2px dashed white;
+    margin-left: 8vh;
+    margin-top: 2vh;
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.linki {
+    width: auto;
+    height: 80px;
+}
+
+#gites {
+    font-size: 40px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 15px;
+    padding-right: 20px;
+    color: white;
+    margin: blank;
+}
+  
+#gites:hover{
+    color: #6600CC;
+    cursor: pointer;
+}
+  
+#faceb {
+    font-size: 40px;
+    float: left;
+    margin-top: 15px;
+    padding-right: 20px;
+    color: white;
+}
+  
+#faceb:hover {
+    color: #0033FF;
+    cursor: pointer;
+}
+  
+#insta {
+    font-size: 40px;
+    float: left;
+    margin-top: 15px;
+    padding-right: 20px;
+    color: white;
+}
+  
+#insta:hover {
+    color: #FF3366;
+    cursor: pointer;
+}
+  
+#twiter {
+    font-size: 40px;
+    float: left;
+    margin-top: 15px;
+    padding-right: 20px;
+    color: white;
+}
+  
+#twiter:hover {
+    color: #448AFF;
+    cursor: pointer;
+}
